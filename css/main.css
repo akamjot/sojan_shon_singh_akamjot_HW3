@@ -4,16 +4,18 @@ html, body {
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: rgba(253, 188, 188, 0.5411764706);
 }
 
 h2 {
   color: #fff;
   margin-top: 20px;
+  text-align: center;
   font-size: 38px;
   margin-bottom: 20px;
-  background-color: crimson;
+  background-color: rgb(0, 0, 0);
   padding: 20px;
-  border-radius: 0px 20px 0 0px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 h3 {
@@ -48,13 +50,9 @@ p {
 
 @media screen and (min-width: 768px) {
   #movie-list {
-    column-count: 3;
+    column-count: 1;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -62,6 +60,10 @@ html {
 body {
   font-family: "Lato", sans-serif;
   padding: 20px;
+}
+
+.heading p {
+  text-align: center;
 }
 
 #app {
@@ -82,11 +84,15 @@ a {
 }
 
 #info-box img {
-  max-width: 100px;
+  max-width: 200px;
   margin-bottom: 20px;
 }
 
 .title {
   font-weight: bold;
   color: crimson;
+}
+
+#movie {
+  margin-top: 50px;
 }
